@@ -1,0 +1,32 @@
+/* Empty. Add your own CSS if you like */
+.book-cover img {
+	width: 50%;
+	margin: 15px auto;
+}
+
+.synopsis {
+	text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.4em;
+
+}
+
+.btn-audiobook {
+	border: 0;
+}
+
+.list img {
+	width: 200px;
+}
+
+.button-salmon {
+	background: #6c59b4;
+	color: white;
+	border: none;
+}
+
+.button-salmon:hover {
+	background: #6c59b4;
+	color: white;
+	border: none;
+}

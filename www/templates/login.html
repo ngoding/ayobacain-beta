@@ -1,0 +1,46 @@
+<ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title">Submit File Audiobuku</h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="closeLogin()">Tutup</button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    <form ng-submit="doLogin()">
+      <div class="list">
+      <label class="item item-input">
+          <span class="input-label">Nama Pengirim</span>
+          <input type="text" ng-model="loginData.username">
+          <!--<input type="text" ng-model="loginData.username">-->
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Judul Buku</span>
+          <input type="text" ng-model="loginData.username">
+          <!--<input type="text" ng-model="loginData.username">-->
+        </label>
+        <label class="item item-input item-select">
+          <span class="input-label">Nomor Bab</span>
+          <select>
+            <option selected>4</option>
+            <option>6</option>
+            <option selected>7</option>
+            <option>6</option>
+            <option selected>8</option>
+            <option>9</option>
+          </select>
+        </label>
+
+        <label class="item item-input">
+          <span class="input-label">Audio Files</span>
+          <input class="inputfile" type="file" style="text-align: right">
+          <!--<input type="text" ng-model="loginData.username">-->
+        </label>
+        <label class="item">
+          <button class="button button-block button-royal" type="submit"><B>KIRIM AUDIOBUKU</B></button>
+        </label>
+      </div>
+    </form>
+  </ion-content>
+</ion-modal-view>
+
+ 

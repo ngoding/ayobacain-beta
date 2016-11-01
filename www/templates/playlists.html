@@ -1,0 +1,25 @@
+<ion-view view-title="Katalog Buku | Bisa Dibaca.in">
+   <ion-content>
+   <div class="card">
+  <div class="item item-divider">
+    <center>Baru bergabung?</center>
+  </div>
+  <div class="item item-text-wrap">
+    <center>Bingung cara medaftar sebagai volunteer, berkontribusi, dan mengupload file audiobuku-mu? Simak step-by-step tutorial yang telah kami susun.</center>
+    <button class="button icon-right ion-mic-c button-block button-salmon">
+	  <b>LIHAT TUTORIAL DULU YUK</b>
+	</button>
+  </div>
+</div>
+      <div class="list">
+        <a ng-repeat="playlist in playlists" 
+           href="#/app/playlists/{{playlist.id}}"
+           class="item item-thumbnail-left">
+          <img ng-src="{{ playlist.image }}">
+          <h2>{{playlist.title}}</h2>
+          <h3>{{playlist.author}}</h3>
+          <p>{{playlist.status}}</p>
+        </a>
+      </div>
+    </ion-content>
+</ion-view>

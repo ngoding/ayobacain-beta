@@ -1,0 +1,15 @@
+<ion-view view-title="Katalog Buku | Sudah Dibaca.in">
+   <ion-content>
+      <div class="list">
+        <a ng-repeat="playlist in playlists" 
+           href="#/app/playlists/{{playlist.id}}"
+           class="item item-thumbnail-left">
+          <img class="book-cover" ng-src="{{ playlist.image }}">
+          <h2>{{playlist.title}}</h2>
+          <h3>{{playlist.author}}</h3>
+          <p>{{playlist.status}}</p>
+        </a>
+      </div>
+    </ion-content>
+</ion-view>
+
